@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Exer_2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+				
 		/*
 		 * 2-	Faça um programa que entre com três números e coloque em ordem crescente.
 		 */
@@ -26,7 +25,7 @@ public class Exer_2 {
 		System.out.println("Digite 3º números: ");
 		num3 = read.nextInt();
 		
-		if (num1 < num2 & num1 < num3 ) {
+		if (num1 < num2 && num1 < num3 ) {
 			
 			System.out.println(num1);
 			
@@ -42,7 +41,7 @@ public class Exer_2 {
 				
 			}
 			
-		} else if (num2 < num1 & num2 < num3) {
+		} else if (num2 < num1 && num2 < num3) {
 			
 			System.out.println(num2);
 			
@@ -58,7 +57,7 @@ public class Exer_2 {
 				
 			}
 			
-		} else if (num3 < num1 & num3 < num2) {
+		} else if (num3 < num1 && num3 < num2) {
 			
 			System.out.println(num3);
 			

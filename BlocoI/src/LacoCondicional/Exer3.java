@@ -20,15 +20,15 @@ public class Exer3 {
 		System.out.println("Digite a sua idade: ");
 		num = read.nextInt();
 		
-		if(num >= 10 & num <= 14) {
+		if(num >= 10 && num <= 14) {
 			
 			System.out.println("Categoria Infantil");
 			
-		} else if(num >= 15 & num <= 17) {
+		} else if(num >= 15 && num <= 17) {
 			
 			System.out.println("Categoria Juvenil");
 			
-		} else if(num >= 18 & num <= 25) {
+		} else if(num >= 18 && num <= 25) {
 			
 			System.out.println("Categoria Adulto");
 			
