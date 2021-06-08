@@ -121,7 +121,7 @@ public class Exer_4 {
 				
 				for(int j = 0; j < y; j++) {
 					
-					array2[i][j]+=array1[i][j];
+					array2[i][j]-=array1[i][j];
 
 					System.out.println("\nOs valores do seu array2: " + array2[i][j]);
 					
@@ -143,6 +143,7 @@ public class Exer_4 {
 				for(int j = 0; j < y; j++) {
 					
 					array1[i][j] = read.nextInt() + constante;
+					array2[i][j] = read.nextInt() + constante;
 					
 				}
 				
@@ -153,6 +154,7 @@ public class Exer_4 {
 				for(int j = 0; j < y; j++) {
 					
 					System.out.println("\nOs valores do seu array: " + array1[i][j]);
+					System.out.println("\nOs valores do seu array: " + array2[i][j]);
 					
 				}
 				
