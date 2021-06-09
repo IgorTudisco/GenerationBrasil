@@ -14,46 +14,46 @@ public class Bancaria {
 	
 	public Bancaria(String n, Double s) {
 		
-		this.name = setName(n);
-		this.salary = setSalary(s);
+		this.name = getName(n);
+		this.salary = getSalary(s);
 						
-	};
-	
-	// Set
-	
-	public String setName( String n) {
-		
-		return name = n;
-		
-	};
-	
-	public int setId( int num) {
-		
-		return id = num;
-		
-	};
-	
-	public double setSalary( Double s) {
-		
-		return salary = s;
-		
 	};
 	
 	// Get
 	
-	public void getName( String n) {
+	public String getName( String n) {
+		
+		return n;
+		
+	};
+	
+	public int getId( int num) {
+		
+		return num;
+		
+	};
+	
+	public double getSalary( Double s) {
+		
+		return s;
+		
+	};
+	
+	// Set
+	
+	public void setName( String n) {
 		
 		name = n;
 		
 	};
 	
-	public void getId( int num) {
+	public void setId( int num) {
 		
 		id = num;
 		
 	};
 	
-	public void getSalary( Double s) {
+	public void setSalary( Double s) {
 		
 		salary = s;
 		
