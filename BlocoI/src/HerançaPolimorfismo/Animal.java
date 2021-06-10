@@ -1,6 +1,6 @@
 package HerançaPolimorfismo;
 
-public class Animal {
+public abstract class Animal {
 	
 	// Atributo
 	
@@ -50,5 +50,11 @@ public class Animal {
 		+ " e a sua idade é: " + idade);
 		
 	};
+	
+	// Method abstract
+	
+	abstract public void somAnimal();
+	abstract public void andaAnimal();
+	abstract public void tipoPeleAnimal();
 
 }

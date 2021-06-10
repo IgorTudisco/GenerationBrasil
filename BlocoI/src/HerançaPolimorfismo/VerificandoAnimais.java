@@ -37,6 +37,9 @@ public class VerificandoAnimais {
 			
 			Cavalo cavalo = new Cavalo("Cavalo", idade, food, yes);
 			cavalo.printCavalo();
+			cavalo.somAnimal();
+			cavalo.tipoPeleAnimal();
+			cavalo.andaAnimal();
 			
 			break;
 		
@@ -56,6 +59,9 @@ public class VerificandoAnimais {
 						
 			Cachorro cachorro = new Cachorro("Cachorro", idade, specie, peso, porte);
 			cachorro.printCachorro();
+			cachorro.somAnimal();
+			cachorro.tipoPeleAnimal();
+			cachorro.andaAnimal();
 			
 			break;
 			
@@ -64,7 +70,7 @@ public class VerificandoAnimais {
 			System.out.println("\nDigite o nome do pais em que a Preguiça foi encontrada ");
 			String country = read.next();
 			
-			System.out.println("\nDigite o tipo a idade da Preguiça: ");
+			System.out.println("\nDigite a idade da Preguiça: ");
 			idade = read.nextInt();
 			
 			System.out.println("\nDigite o nome da região em que a Preguiça foi encontrada ");
@@ -72,6 +78,9 @@ public class VerificandoAnimais {
 
 			Preguica preguica = new Preguica("Preguiça", idade, country, region);
 			preguica.printPreguica();
+			preguica.somAnimal();
+			preguica.tipoPeleAnimal();
+			preguica.andaAnimal();
 			
 			break;
 			

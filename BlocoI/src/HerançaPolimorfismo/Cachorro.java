@@ -58,5 +58,32 @@ public class Cachorro extends Animal {
 				+ "\nPorte: " + size);
 		
 	}
+	
+	// Abstract
+
+	@Override
+	public void somAnimal() {
+		// TODO Auto-generated method
+
+		System.out.println("\nO som do animal: Au! Au! Au......!");
+		
+	}
+
+	@Override
+	public void andaAnimal() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\nO animal anda em quatro patas");
+		System.out.println("\nPode chegar a 72 km/h");
+		
+	}
+
+	@Override
+	public void tipoPeleAnimal() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\nTem divesos tipos de pelagem.");
+		
+	}
 
 }

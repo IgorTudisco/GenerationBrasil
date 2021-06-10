@@ -29,9 +29,48 @@ public class Cavalo extends Animal{
 	
 	public void printCavalo() {
 		
+		String ok;
+		
+		if(trained) {
+			
+			ok = "sim";
+			
+		} else {
+			
+			ok = "não";
+			
+		}
+		
 		printAnimal();
 		System.out.println("\nO tipo de comida do Calavo é: " + typeFood
-				+ "\nO cavalo foi domesticado ? " + trained);
+				+ "\nO cavalo foi domesticado ? " + ok);
+		
+	}
+	
+	// Abstract
+
+	@Override
+	public void somAnimal() {
+		// TODO Auto-generated method
+
+		System.out.println("\nO som do animal: Vrummm! Vrummm! ");
+		
+	}
+
+	@Override
+	public void andaAnimal() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\nO animal anda em quatro patas");
+		System.out.println("\nPode chegar 88 km/h");
+		
+	}
+
+	@Override
+	public void tipoPeleAnimal() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\nTem pelalem curta.");
 		
 	}
 

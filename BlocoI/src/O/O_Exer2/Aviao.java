@@ -1,4 +1,4 @@
-package OrientacaoObijetoExer2;
+package O.O_Exer2;
 
 public class Aviao {
 	

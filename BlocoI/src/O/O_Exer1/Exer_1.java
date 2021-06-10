@@ -1,4 +1,4 @@
-package OrientacaoObijetoExer1;
+package O.O_Exer1;
 
 import java.util.Scanner;
 

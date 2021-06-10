@@ -33,7 +33,34 @@ public class Preguica extends Animal{
 		System.out.println("\nVeio do pais " + country
 				+ " e da região " + region);
 		
-	};
+	}
+	
+	// Abstract
+	
+	@Override
+	public void somAnimal() {
+		// TODO Auto-generated method
+
+		System.out.println("\nO som do animal: Ah uh! Ah... uh...! ");
+		
+	}
+
+	@Override
+	public void andaAnimal() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\nO animal anda em quatro patas e sobe em árvores");
+		System.out.println("\nPode chegar 0,27 km/h");
+		
+	}
+
+	@Override
+	public void tipoPeleAnimal() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\nTem pelalem densa.");
+		
+	}
 	
 
 }
